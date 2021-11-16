@@ -29,7 +29,7 @@ public class Programa1 {
         }
         conta = conta/Integer.parseInt(input[0]);
         
-        while(conta<0){
+        while(conta > 0){
             for(int b=0; b<DiferentesFinais.length; b++){
                 total += Integer.parseInt(DiferentesFinais[b]) / conta;
             }
